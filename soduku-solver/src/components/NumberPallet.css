@@ -1,0 +1,6 @@
+.Number-pallet {
+    min-width: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.Number-button {
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    min-width: 2em;
+    min-height: 2em;
+    border: 2px solid rgb(130, 168, 173)
+}
+
+.selected {
+    background-color:rgb(130, 168, 173)
+}

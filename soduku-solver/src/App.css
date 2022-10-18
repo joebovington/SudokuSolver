@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(209, 209, 209);
+}
+
+.App-header {
+  font-size: calc(20px + 2vmin);
+}
+
+.App-body {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  min-height: 75vh;
+  min-width: 80vh;
+  border: 1px solid black;
+}
